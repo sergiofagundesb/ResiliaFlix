@@ -1,0 +1,19 @@
+nav
+{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content:space-between;
+}
+ul
+{
+    display:flex;
+    list-style-type:none;
+}
+.caixa-footer
+{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
