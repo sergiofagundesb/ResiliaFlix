@@ -56,17 +56,17 @@
     }
     .grid1
     {
-        background-color:blue;
+        width:700px;
         flex-wrap: wrap;  
     }
     .grid2
     {
-        background-color:blue;
+        width:700px;
         flex-wrap: wrap;
     }
     .grid3
     {
-        background-color:blue;
+        width:700px;
         flex-wrap: wrap;
     }
     .barranavegacao2
