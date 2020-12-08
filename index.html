@@ -2,47 +2,78 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="flexcaixa.css">
-    <title>NavBar Marota do Resilia</title>
+    <title>Resiliaflix</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <img src="resiliaflix_alternativo.svg" class="imgheader"></h1>
-            <ul class="itens">
-                <li><a href="#entrar">Entrar</a></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#contact">contato</a></li>
-                <li><a href="#about_us">sobre nós</a></li>
-            </ul>
+<body class="body_lista">
+    <header class="cabecalho">
+        <nav class="barranavegacao2">
+            <img src="resiliaflix.svg" class="imgheader"></h1>
+            <div class="navbaritens">
+                <a class="letranav" href="inicio.html" class>Início</a>
+                <a class="letranav" href="#">Séries</a>
+                <a class="letranav" href="#">Filmes</a>
+                <a class="letranav" href="#">Minha Lista</a>
+            </div>
         </nav>
     </header>
-    <main style="margin-top:10px;">
-        <div class="grid1">
-            <img src="a11.jpg" class="imggrid">
-            <img src="a12.jpg" class="imggrid">
-            <img src="a13.jpg" class="imggrid">
-            <img src="a14.jpg" class="imggrid">
-            <img src="a15.jpg" class="imggrid">
-            <img src="a16.jpg" class="imggrid">
-            <img src="a21.jpg" class="imggrid">
-            <img src="a22.jpg" class="imggrid">
-            <img src="a23.jpg" class="imggrid">
-            <img src="a24.jpg" class="imggrid">
-            <img src="a25.jpg" class="imggrid">
-            <img src="a26.jpg" class="imggrid">
+    <main class="conteudo">
+        <img src="./imagens/gf.jpg" class="imgprincipal">
+        <div class="caixainfo">
+            <p class="textoprincipalmaior">O Poderoso Chefão I</p><br>
+            <p class="textoprincipalfilme">Com a honra da família em jogo,<br>herói de guerra idealista
+            tem dificuldade para legalizar império do crime do pai.</p>
+            <div class="botoesprinc">
+                <a class="buttonprincipal">Assistir</a>
+                <a class="buttonsec">Mais informações</a>
+            </div>
+        </div>
+        <br>
+        <p class="letracatalogo">Minha Lista:</p>
+        <div class="dividecatalogo1">
+            <ul class="grid1">
+                <li><img src="./imagens/a11.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a12.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a13.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a14.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a15.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a16.jpg" class="imggrid"></li>
+            </ul>
+        </div>
+        <p class="letracatalogo">Populares na ResiliaFlix</p>
+        <div class="dividecatalogo2">
+            <ul class="grid2">
+                <li><img src="./imagens/a21.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a22.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a23.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a24.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a25.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a26.jpg" class="imggrid"></li>
+            </ul>
+        </div>
+        <p class="letracatalogo">Em alta</p>
+        <div class="dividecatalogo3">
+            <ul class="grid3">
+                <li><img src="./imagens/a31.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a32.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a33.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a34.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a35.jpg" class="imggrid"></li>
+                <li><img src="./imagens/a36.jpg" class="imggrid"></li>
+            </ul>
         </div>
     </main>
-    <footer>
+    <footer class="rodape">
         <div class="caixa-footer">
             <div class="letras-footer">
-                <a><img class="imgfooter" src="twitter.png"></a>
+                <a><img class="imgfooter" src="twitter.svg"></a>
                 <a><img class="imgfooter" src="facebook.svg"></a>
-                <a><img class="imgfooter" src="youtube.jpg"></a>
+                <a><img class="imgfooter" src="youtube.svg"></a>
                 <a><img class="imgfooter" src="instagram.svg"></a>
             </div>
-            Resilia Flix LTDA.
+            ResiliaFlix LTDA.
         </div>
     </footer>
 </body>

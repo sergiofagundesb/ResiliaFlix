@@ -1,37 +1,136 @@
-*{
-    margin:0;
-}
-body
+.body_inicio
 {
-    background-color:rgb(231,223,200);
+    background:url("./imagens/background_img.jpg");
 }
-nav
+.body_lista
 {
-    background-color:rgb(47,46,46);
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:40px;
+    margin-right:40px;
 }
-main{
-    align-items:center;
+.barranavegacao, .barranavegacao2
+{
+    margin-top:10px;
+    margin-left:40px;
+}
+.letranav
+{
+    color:white;
+    padding-left:15px;
+}
+.caixainfo
+{
+    color:white;
+    top:400px;
+}
+.caixainfo .buttonprincipal
+{
+    color:black;
+    margin-right:10px;
+}
+.caixainfo .buttonsec{
+    color:white;
 }
 .imgheader{
     width:150px;
     height:50px;
 }
-li a
+.botoesprinc{
+    margin-top:30px;
+    display:flex;
+}
+.textoprincipalmaior{
+    font-size:50px;
+}
+.textoprincipalfilme
+{
+    font-weight:bold;
+}
+.letracatalogo{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+.botaoentrar
+{
+    border-radius:7px 7px 7px 7px;
+    padding:7px 17px;
+    background:rgb(229,9,20);
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+main .fundoinicio{
+    align-items:center;
+    margin-top:10px;
+}
+a
 {
     text-decoration:none;
-    text-transform: capitalize;
-    color:rgb(250,208,0);
-    margin-right:10px;
 }
-li a:hover
+.texto
 {
-    color:rgb(134,228,190);
-}
-.alltext
-{
+    margin-top:100px;
     color:white;
-    font-size:3.125rem;
     font-family:Arial, Helvetica, sans-serif;
+    align-items:center;
+    text-align:center;
+}
+
+.insc{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#textoinsc
+{
+    width:450px;
+    height:50px;
+}
+.enviaremail{
+    background-color:rgb(229,9,20);
+    border:0.5px solid black;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    width:210px;
+    padding:10px;
+}
+.storycardmain
+{
+    font-size:50px;
+    font-weight:bold;
+}
+.storycardsec
+{
+    font-size:25px;
+    padding-top:10px;
+}
+.storycardterc{
+    font-size:15px;
+}
+
+.imgbutton{
+    margin-top:5px;
+}
+.imgprincipal
+{
+    width:100%;
+    height:400px;
+}
+.buttonprincipal{
+    padding:10px;
+    border:2px black solid;
+    background-color:white;
+    opacity: 0.8;
+    border-radius:7px 7px 7px 7px;
+}
+.buttonsec{
+    padding:10px;
+    background-color:gray;
+    opacity:0.8;
+    border-radius:7px 7px 7px 7px;
 }
 .imggrid
 {
@@ -40,22 +139,35 @@ li a:hover
     padding-bottom:10px;
     width: 200px;
     height: 250px;
+    position:relative;
+    transition: all 2s ease-in-out;
+    top:0;
 }
-.grid1
-{
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
+.letraprincipal{
+padding:10px;
 }
 .imgfooter{
     width:35px;
     height:35px;
     padding-right:10px;
+
+}
+.imggrid:hover{
+    /*widows: 500px;
+    height:300px;
+    z-index:2;
+    transition: all 2s ease-in-out;
+    position:relative;
+    width:400px;
+    height:auto;
+    z-index:999;*/
+    transform: scale(1.5);
+    z-index:999;
+
 }
 .caixa-footer
 {
     background-color:rgb(47,46,46);
-    display:flex;
     flex-direction:column;
     align-items:center;
     color:rgb(250,208,0);
